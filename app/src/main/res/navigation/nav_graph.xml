@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:startDestination="@id/getStartedFragment">
+
+    <fragment
+        android:id="@+id/getStartedFragment"
+        android:name="com.example.tasksyncapp.GetStartedFragment"
+        android:label="Get Started" />
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.tasksyncapp.LoginFragment"
+        android:label="Login" />
+
+</navigation>
