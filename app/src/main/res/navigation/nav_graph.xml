@@ -4,10 +4,20 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     app:startDestination="@id/getStartedFragment">
 
+
     <fragment
         android:id="@+id/getStartedFragment"
         android:name="com.example.tasksyncapp.GetStartedFragment"
-        android:label="Get Started" />
+        android:label="Get Started">
+        <action
+            android:id="@+id/action_getStartedFragment_to_registerFragment"
+            app:destination="@id/registerFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.example.tasksyncapp.RegisterFragment"
+        android:label="Register" />
 
     <fragment
         android:id="@+id/loginFragment"
