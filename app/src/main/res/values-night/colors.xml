@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dark -->
+    <color name="primary">#6E7FE0</color>
+    <color name="on_primary">#0A1242</color>
+
+    <color name="secondary">#A9B4F0</color>
+    <color name="on_secondary">#11152C</color>
+
+    <color name="background">#1C1B1F</color>
+    <color name="surface">#1C1B1F</color>
+    <color name="on_surface">#E2E1E6</color>
+
+    <color name="splash_background">#1C1B1F</color>
+</resources>

@@ -1,8 +1,38 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
+    <!--==================================== -->
+    <!-- App Light Theme-->
+    <!--==================================== -->
     <style name="Base.Theme.TaskSyncApp" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <!-- Primary colors -->
+       <item name="colorPrimary">@color/primary</item>
+        <item name="colorOnPrimary">@color/on_primary</item>
+
+        <!-- Secondary colors -->
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorOnSecondary">@color/on_secondary</item>
+
+        <!-- Background & surface -->
+        <item name="android:colorBackground">@color/background</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnSurface">@color/on_surface</item>
+
+        <!-- Status bar -->
+        <item name="android:statusBarColor">@color/background</item>
+        <item name="android:windowLightStatusBar">@color/surface</item>
+
+    </style>
+
+    <!--==================================== -->
+    <!-- Splash Theme-->
+    <!--==================================== -->
+    <style name="Theme.TaskSyncApp.Splash" parent="Theme.SplashScreen">
+
+        <!-- Splash background -->
+        <item name="android:windowSplashScreenBackground" tools:ignore="NewApi">@color/splash_background</item>
+        <item name="android:windowSplashScreenAnimatedIcon" tools:ignore="NewApi">@drawable/ic_splash_foreground</item>
+
+        <!-- Theme after splash -->
+        <item name="postSplashScreenTheme">@style/Base.Theme.TaskSyncApp</item>
     </style>
 
     <style name="Theme.TaskSyncApp" parent="Base.Theme.TaskSyncApp" />

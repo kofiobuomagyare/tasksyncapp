@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "293668999117",
+    "project_id": "tasksync-bbc26",
+    "storage_bucket": "tasksync-bbc26.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:293668999117:android:4741d908f92354c3597e84",
+        "android_client_info": {
+          "package_name": "com.example.tasksyncapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "293668999117-v2btggje248mdd8mf8g3uc7u2p1gemnj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxvF5CqicrGHXPCKJxmnWTlzpGtqNBRd0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "293668999117-v2btggje248mdd8mf8g3uc7u2p1gemnj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

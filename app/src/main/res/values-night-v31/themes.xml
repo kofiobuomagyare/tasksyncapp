@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.TaskSyncApp.Splash" parent="Theme.SplashScreen">
+
+        <!-- Splash background -->
+        <item name="android:windowSplashScreenBackground">@color/splash_background</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/ic_splash_foreground</item>
+
+        <!-- Theme after splash -->
+        <item name="postSplashScreenTheme">@style/Base.Theme.TaskSyncApp</item>
+    </style>
+</resources>
